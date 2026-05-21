@@ -1,3 +1,6 @@
+ssh root@147.93.103.224
+
+
 ```
 postgres=# CREATE USER jayastrauser WITH ENCRYPTED PASSWORD 'jayastrapassword';
 

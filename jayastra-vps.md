@@ -46,6 +46,6 @@ nano /etc/nginx/sites-available/api.jayastra.in.conf
 ```
 
 ```
-root@srv973760:/var/www/jayastra/frontend# certbot --nginx -d jayastra.in -d www.jayastra.in -d app.jayastra.in -d api.jayastra.in
+certbot --nginx -d jayastra.in -d www.jayastra.in -d app.jayastra.in -d api.jayastra.in
 
 ```

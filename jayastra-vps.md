@@ -45,6 +45,18 @@ nano /etc/nginx/sites-available/api.jayastra.in.conf
 
 ```
 
+```bash
+ln -s /etc/nginx/sites-available/jayastra.in.conf /etc/nginx/sites-enabled/
+```
+
+```bash
+ ln -s /etc/nginx/sites-available/app.jayastra.in.conf /etc/nginx/sites-enabled/
+```
+
+```bash
+ln -s /etc/nginx/sites-available/api.jayastra.in.conf /etc/nginx/sites-enabled/
+```
+
 ```
 certbot --nginx -d jayastra.in -d www.jayastra.in -d app.jayastra.in -d api.jayastra.in
 

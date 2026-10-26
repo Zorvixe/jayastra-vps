@@ -2,19 +2,19 @@ ssh root@147.93.103.224
 
 
 ```
-postgres=# CREATE USER jayastrauser WITH ENCRYPTED PASSWORD 'jayastrapassword';
+CREATE USER jayastrauser WITH ENCRYPTED PASSWORD 'jayastrapassword';
 
 ```
 
 ```
 
-postgres=# CREATE DATABASE jayastradb OWNER jayastrauser;
+CREATE DATABASE jayastradb OWNER jayastrauser;
 
 ```
 
 ```
 
-postgres=# GRANT ALL PRIVILEGES ON DATABASE jayastradb TO jayastrauser;
+GRANT ALL PRIVILEGES ON DATABASE jayastradb TO jayastrauser;
 
 ```
 
